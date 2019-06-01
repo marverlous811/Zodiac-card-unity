@@ -21,13 +21,11 @@ public class CardController : MonoBehaviour
         string path = "Card/"+_card.TexturePath;
         // Debug.Log(path);
         Texture t = Resources.Load(path) as Texture;
-        Debug.Log(t);
         // rend.material.mainTexture = t;
         rend.sprite = Sprite.Create((Texture2D)t, rend.sprite.rect, new Vector2(0.5f, 0.5f));
     }
 
     public void ReavealedCard(){
-        Debug.Log("reavealed");
         this.reavealed = true;
         Card_Back.SetActive(false);
     }
