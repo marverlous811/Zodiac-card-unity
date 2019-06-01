@@ -2,61 +2,134 @@
     "aries": {
         "name": "aries",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [5,6,7,8,9] //5
     },
     "taurus": {
         "name": "taurus",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [2,4,6,8] //4
     },
     "gemini": {
         "name": "gemini",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [1,1,4,4,7,7] //6
     },
     "cancer": {
         "name": "cancer",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [0,0,5,5,10,10] //6
     },
     "leo": {
         "name": "leo",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [1,3,5,7,9] //5
     },
     "virgo": {
         "name": "virgo",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [1,2,3,4,5] //5
     },
     "libra": {
         "name": "libra",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [1,2,3,4,6,7,8,9] //8
     },
     "scorpio": {
         "name": "scorpio",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [-1,-1,1,1] //4
     },
     "sagittarius": {
         "name": "sagittarius",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [4,6,8,10] //4
     },
     "capricorn": {
         "name": "capricorn",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [5,7,9,11] //4
     },
     "aquarius": {
         "name": "aquarius",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [3,3,6,6,9,9] //6
     },
     "pisces": {
         "name": "pisces",
         "type": "Zodiac",
-        "values": [5,6,7,8,9]
+        "values": [4,4,6,6,8,8] //6
+    },
+    
+    "mars": {
+        "name": "mars",
+        "type": "Plannet",
+        "values": [1], //1
+        "listZodiac": ["aries"]
+    },
+    "venus": {
+        "name": "venus",
+        "type": "Plannet",
+        "values": [1], //1
+        "listZodiac": ["taurus", "libra"]
+    },
+    "mercury": {
+        "name": "mercury",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["virgo", "gemini"]
+    },
+    "moon": {
+        "name": "moon",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["cancer"]
+    },
+    "sun": {
+        "name": "sun",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["leo"]
+    },
+    "pluto": {
+        "name": "pluto",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["scorpio"]
+    },
+    "jupiter": {
+        "name": "jupiter",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["sagittarius"]
+    },
+    "saturn": {
+        "name": "saturn",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["capricorn"]
+    },
+    "uranus": {
+        "name": "uranus",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["aquarius"]
+    },
+    "neptune": {
+        "name": "neptune",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["pisces"]
+    },
+    "judgement": {
+        "name": "judgement",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["*"]
+    },
+    "the_world": {
+        "name": "the world",
+        "type": "Plannet",
+        "values": [1],//1
+        "listZodiac": ["*"]
     }
 }
