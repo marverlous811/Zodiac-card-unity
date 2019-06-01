@@ -31,6 +31,10 @@ public class Card{
         get { return this._value; }
         set { this._value = value; }
     }
+
+    public string TexturePath{
+        get { return this.texturePath; }
+    }
 }
 
 public class ZodiacCard : Card{
