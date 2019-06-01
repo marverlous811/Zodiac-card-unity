@@ -12,8 +12,15 @@ public class SceneController : MonoBehaviour
     [SerializeField] private RootObject cardObject;
     [SerializeField] private CardController tempCard;
 
-    public const float offsetX = 4f;
-    public const float offsetY = 5f;
+    public const int maxRow = 9;
+
+    public const int maxColumn = 2;
+
+    public int nowRow = 0;
+    public int nowColumn = 0;
+
+    public const float offsetX = 2f;
+    public const float offsetY = 3f;
 
     private int nowIndex = 0;
 
@@ -46,8 +53,13 @@ public class SceneController : MonoBehaviour
         card.info = cardModel.list[nowIndex];
 
         // int index = 1;
-        float posX = (offsetX * 1) + startPos.x;
-        float posY = (offsetY * 0) + startPos.y;
+        nowRow++;
+        if(nowRow >= maxRow){
+            nowRow = 1;
+            nowColumn++;
+        }
+        float posX = (offsetX * nowRow) + startPos.x;
+        float posY = (offsetY * nowColumn) - startPos.y;
         card.transform.position = new Vector3(posX, posY, startPos.z); 
         card.ReavealedCard();
 
