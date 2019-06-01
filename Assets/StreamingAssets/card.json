@@ -1,0 +1,62 @@
+{
+    "aries": {
+        "name": "aries",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "taurus": {
+        "name": "taurus",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "gemini": {
+        "name": "gemini",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "cancer": {
+        "name": "cancer",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "leo": {
+        "name": "leo",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "virgo": {
+        "name": "virgo",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "libra": {
+        "name": "libra",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "scorpio": {
+        "name": "scorpio",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "sagittarius": {
+        "name": "sagittarius",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "capricorn": {
+        "name": "capricorn",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "aquarius": {
+        "name": "aquarius",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    },
+    "pisces": {
+        "name": "pisces",
+        "type": "Zodiac",
+        "values": [5,6,7,8,9]
+    }
+}
