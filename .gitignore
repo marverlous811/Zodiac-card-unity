@@ -65,7 +65,7 @@ crashlytics-build.properties
 .vscode/
 .DS_Store
 mono_crash.*
-*.meta
+# *.meta
 
 # Ignore NuGet Packages
 *.nupkg
