@@ -16,13 +16,8 @@ public class CardController : MonoBehaviour
     }
 
     void updateCardTexture(){
-        // Debug.Log(this._card.TexturePath);
         var rend = this.GetComponent<SpriteRenderer>();
-        string path = "Card/"+_card.TexturePath;
-        // Debug.Log(path);
-        Texture t = Resources.Load(path) as Texture;
-        // rend.material.mainTexture = t;
-        rend.sprite = Sprite.Create((Texture2D)t, rend.sprite.rect, new Vector2(0.5f, 0.5f));
+        rend.sprite = Sprite.Create(this._card.Texture(), rend.sprite.rect, new Vector2(0.5f, 0.5f));
     }
 
     public void ReavealedCard(){

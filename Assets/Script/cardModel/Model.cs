@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 public enum CARD_TYPE
 {
@@ -34,6 +35,13 @@ public class Card{
 
     public string TexturePath{
         get { return this.texturePath; }
+    }
+
+    public Texture2D Texture(){
+        string path = "Card/"+ this.texturePath;
+        Texture _texture = Resources.Load(path) as Texture;
+
+        return (Texture2D)_texture;
     }
 }
 

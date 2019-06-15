@@ -27,7 +27,9 @@ public class LoginScreen : MonoBehaviour
 
         SceneManager.LoadScene("GameScene");
 
-        Debug.Log("user: "+ name + " connect to " + server + " room " + room);
+        LocalStorage.getInstance().setInfo("name", name);
+        LocalStorage.getInstance().setInfo("server", server);
+        LocalStorage.getInstance().setInfo("room", room);
     }
 
     private void OnGUI() {
