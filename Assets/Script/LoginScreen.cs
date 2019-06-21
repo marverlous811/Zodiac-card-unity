@@ -17,6 +17,8 @@ public class LoginScreen : MonoBehaviour
     {
         //Subscribe to onClick event
         loginButton.onClick.AddListener(adminDetails);
+        Socket soc = new Socket();
+        soc.connect();
     }
 
     public void adminDetails()
